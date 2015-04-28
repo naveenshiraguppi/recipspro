@@ -15,6 +15,7 @@ import org.junit.Test;
 
 import com.recipspro.Ingredient;
 import com.recipspro.Measures;
+import com.recipspro.Recipe;
 
 public class JSONReaderTest {
 	@Test

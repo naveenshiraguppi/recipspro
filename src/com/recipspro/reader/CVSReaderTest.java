@@ -97,9 +97,9 @@ public class CVSReaderTest {
 			assertEquals("mixed salad", ingrediens.get(4).getItem());
 			assertEquals(150, ingrediens.get(4).getAmount());
 			assertEquals(Measures.valueOf("grams"), ingrediens.get(4).getUnit());
-			assertEquals(26, ingrediens.get(4).getUse_by().getDayOfMonth());
-			assertEquals(Month.DECEMBER, ingrediens.get(4).getUse_by().getMonth());
-			assertEquals(2013, ingrediens.get(4).getUse_by().getYear());
+			assertEquals(25, ingrediens.get(4).getUse_by().getDayOfMonth());
+			assertEquals(Month.AUGUST, ingrediens.get(4).getUse_by().getMonth());
+			assertEquals(2015, ingrediens.get(4).getUse_by().getYear());
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}

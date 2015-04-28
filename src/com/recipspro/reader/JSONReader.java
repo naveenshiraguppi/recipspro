@@ -14,6 +14,7 @@ import org.json.simple.JSONValue;
 
 import com.recipspro.Ingredient;
 import com.recipspro.Measures;
+import com.recipspro.Recipe;
 
 public class JSONReader {
 	List<Recipe> recipes;
@@ -29,6 +30,7 @@ public class JSONReader {
 	 */
 	JSONReader(){
 	}
+	
 	public void parseFile(){
 		String recipeFileContent = br.lines().collect(Collectors.joining());
 		Object jsonObject = JSONValue.parse(recipeFileContent);

@@ -1,0 +1,1 @@
+java -cp .;./bin;./lib/* com.recipspro.ReciproApp fridge.csv recipes.json -amountAndUseBy
