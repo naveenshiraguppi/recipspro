@@ -1,0 +1,36 @@
+Created GitHub account with id: naveenshiraguppi and passwod: s*cr*t
+Create repository: unicoapp
+
+Install Git in windows.
+check the installation using command : git
+Got to the project folder and type following commands:
+
+git init
+git add .
+	# Adds the files in the local repository and stages them for commit. To unstage a file, use 'git reset HEAD YOUR-FILE'.
+git commit
+	# Commits the tracked changes and prepares them to be pushed to a remote repository. To remove this commit and modify the file, use 'git reset --softHEAD~1' and commit and add the file again.
+
+git remote add origin https://github.com/naveenshiraguppi/recipspro.git
+			
+	# This asks for the user id password
+git remote -v
+	# Verify new remote
+	# origin  https://github.com/naveenshiraguppi/unicoapp1.git (fetch)
+	# origin  https://github.com/naveenshiraguppi/unicoapp1.git (push)
+git push origin master
+	# Pushes the changes in your local repository up to the remote repository you specified as the origin
+
+
+
+Refer:
+	https://help.github.com/articles/adding-a-remote/
+	https://help.github.com/articles/adding-a-file-to-a-repository-from-the-command-line/
+
+Troubleshooting:
+	git remote add origin https://github.com/naveenshiraguppi/unicoapp1.git
+		fatal: remote origin already exists.
+	git remote rm origin
+		#to remove the origin and set new.
+
+
